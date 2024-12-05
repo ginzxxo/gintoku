@@ -3,7 +3,7 @@ import streamlit as st
 from cforms.contactme import contact_form
 
 
-@st.dialog("Contact Me")
+@st.experimental_dialog("Contact Me")
 def show_contact_form():
     contact_form()
 
